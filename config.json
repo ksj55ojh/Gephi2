@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "",
+    "intro": "각 전자기기(노트북, 무선 이어폰, 스마트폰, 태블릿, 스마트 워치)와 그것을 생산한 회사를 시각화한 것입니다.\n속성 데이터를 국내사, 해외사로 구분하였습니다.",
+    "title": "전자기기와 회사"
+  },
+  "legend": {
+    "edgeLabel": "기기를 생산한 회사",
+    "colorLabel": "생산 국가",
+    "nodeLabel": "전자기기, 회사"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "ROOT",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
